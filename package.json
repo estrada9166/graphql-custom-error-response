@@ -1,0 +1,37 @@
+{
+  "name": "graphql-custom-error",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon src/App.js",
+    "standard": "standard",
+    "standard-fix": "standard --fix"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "express",
+    "graphql"
+  ],
+  "author": "estrada9166",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/estrada9166/graphql-basics.git"
+  },
+  "bugs": {
+    "url": "https://github.com/estrada9166/graphql-basics/issues"
+  },
+  "homepage": "https://github.com/estrada9166/graphql-basics#readme",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-graphql": "^0.6.12",
+    "graphql": "^0.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3",
+    "standard": "^11.0.1"
+  }
+}
